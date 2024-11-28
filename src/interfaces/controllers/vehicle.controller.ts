@@ -2,7 +2,7 @@ import { Controller, Get, Post, Body, Param, Put, Delete } from '@nestjs/common'
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
 import { VehicleUseCase } from '../../application/usecases/vehicle.usecase';
 import { Vehicle } from '../../domain/entities/vehicle.entity';
-import { CreateVehicleDto } from 'src/application/dtos/vehicle.dto';
+import { CreateVehicleDto } from '../../application/dtos/vehicle.dto';
 
 @ApiTags('vehicles')
 @Controller('vehicles')
